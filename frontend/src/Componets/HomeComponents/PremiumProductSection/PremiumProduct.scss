@@ -1,0 +1,25 @@
+section {
+    padding-top: 70px;
+    width: 100%;
+    min-height: 80vh;
+    background: rgb(56, 74, 235);
+    background: linear-gradient(90deg, rgba(56, 74, 235, 1) 0%, rgba(56, 74, 235, 1) 40%, rgba(56, 74, 235, 1) 40%, rgba(255, 255, 255, 1) 40%, rgba(9, 9, 121, 1) 40%, rgba(225, 228, 252, 1) 40%, rgba(255, 255, 255, 1) 40%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    .premium_product {
+        display: flex;
+        width: 60%;
+        height: 80%;
+        .premium_prduct_img{
+
+            
+           img{
+            width: 500px;
+            height: 600px;
+            
+            box-sizing: border-box;
+           }
+        }
+    }
+}
